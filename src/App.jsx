@@ -331,10 +331,10 @@ const PageServices = ({ go }) => {
 const PageAPropos = ({ go }) => {
   const [activeTeam, setActiveTeam] = useState(0);
   const team = [
-    { i: "DK", n: "Dr. Konan", r: "Fondateur & Directeur", b: "Juriste d'affaires, 12 ans d'expérience en droit OHADA et droit des sociétés.", sp: ["Droit OHADA", "Fusions & acquisitions"], c: G },
-    { i: "AT", n: "Maître Touré", r: "Resp. Contentieux", b: "Spécialiste en litiges commerciaux et recouvrement, ancien avocat au barreau.", sp: ["Contentieux", "Recouvrement", "Arbitrage"], c: "#3b82f6" },
-    { i: "MN", n: "Mme N'Dri", r: "Chargée de Formalités", b: "Experte en création d'entreprise et procédures RCCM.", sp: ["Création entreprise", "Formalités"], c: "#22c55e" },
-    { i: "SK", n: "M. Sanogo", r: "Conseiller Fiscal", b: "Fiscaliste certifié, optimisation juridique et conformité fiscale.", sp: ["Fiscalité", "Déclarations"], c: "#8b5cf6" },
+    { i: "DK", n: "Mme. Zongho", r: "Cofondatrice & Directrice", b: "Juriste d'affaires, cumulant plusieurs années d'expérience en droit OHADA et droit des sociétés.", sp: ["Droit OHADA", "Fusions & acquisitions"], c: G },
+    { i: "AT", n: "M. Kouamelan", r: "Cofondateur & Resp. Contentieux", b: "Spécialiste en litiges commerciaux et recouvrement, ancien avocat au barreau.", sp: ["Contentieux", "Recouvrement", "Arbitrage"], c: "#3b82f6" },
+    { i: "MN", n: "M. Konan", r: "Chargée de Formalités", b: "Experte en création d'entreprise et procédures RCCM.", sp: ["Création entreprise", "Formalités"], c: "#22c55e" },
+    { i: "SK", n: "M. Kouassi", r: "Conseiller Fiscal", b: "Fiscaliste certifié, optimisation juridique et conformité fiscale.", sp: ["Fiscalité", "Déclarations"], c: "#8b5cf6" },
   ];
   const tl = [
     { y: "2019", t: "Naissance de l'idée", d: "Conception d'un cabinet juridique moderne et digitalisé." },
